@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Redireciona tomadas as requisições que não sejam a arquivos ou diretórios
+# para o script index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-z]+)\/?$ index.php?pagina=$1 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)$ index.php?pagina=$1&id=$2 [NC,L]

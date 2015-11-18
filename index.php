@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<base href="http://localhost/enterprise/">
 	<meta charset = utf-8 />
 	<meta content="A Enterprise esta sempre pronta para surpreender com os melhores serviços em marketing e comunicação para você se destacar na sua área e se tornar uma autoridade no assunto." />
 	<title>Enterprise.:Criatividade em Marketing e Comunicação:.</title>
@@ -16,11 +17,13 @@
 
 	<!--MENU-->
 	<nav class="menu_horizontal">
-		<a href="index.php">Inicio</a>
-		<a href="?pagina=sobre_nos">Sobre Nós</a>
-		<a href="?pagina=cases">Casos de Sucesso</a>
-		<a href="?pagina=servicos">Serviços</a>
-		<a href="?pagina=contatos">Contatos</a>
+		<a href="home">Inicio</a>
+		<a href="sobre">Sobre Nós</a>
+		<a href="cases">Casos de Sucesso</a>
+		<a href="servicos">Serviços</a>
+		<a href="contatos">Contatos</a>
+		<a href="contatos/outra">Teste</a>
+
 	</nav>
 
 	<!--CONTEÚDO-->
